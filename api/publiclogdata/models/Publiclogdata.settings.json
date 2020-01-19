@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "public._logdata",
+  "collectionName": "publiclogdata",
   "info": {
     "name": "publiclogdata",
     "description": ""
