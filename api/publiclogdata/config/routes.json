@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/publiclogdata",
+      "handler": "Publiclogdata.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/publiclogdata/count",
+      "handler": "Publiclogdata.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/publiclogdata/:id",
+      "handler": "Publiclogdata.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/publiclogdata",
+      "handler": "Publiclogdata.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/publiclogdata/:id",
+      "handler": "Publiclogdata.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/publiclogdata/:id",
+      "handler": "Publiclogdata.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "public._logdata",
+  "info": {
+    "name": "publiclogdata",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "deviceid": {
+      "type": "text"
+    }
+  }
+}

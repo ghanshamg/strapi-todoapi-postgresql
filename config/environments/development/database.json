@@ -5,11 +5,11 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "postgres",
-        "database": "todoapp",
+        "database": "anup",
         "host": "127.0.0.1",
         "port": 5432,
-        "username": "",
-        "password": ""
+        "username": "postgres",
+        "password": "root"
       },
       "options": {}
     }
